@@ -1,0 +1,296 @@
+* {
+  font-family: sans-serif;
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+html {
+  overflow-x: hidden;
+}
+body {
+  background-image: url(1.jpg);
+  background-size: 100%;
+  background-repeat: no-repeat;
+  object-position: center;
+}
+
+a:hover {
+  color: rgb(0, 4, 255);
+  transition: all ease 0.5s;
+}
+
+ul {
+  text-align: center;
+  display: flex;
+  list-style-type: none;
+}
+
+.imges {
+  object-position: center;
+  width: 100%;
+  height: 100%;
+}
+
+.header {
+  display: block;
+  margin-top: 25px;
+  margin-left: 250px;
+  color: white;
+  font-size: 20px;
+  display: flex;
+}
+
+a {
+  text-decoration: none;
+  color: white;
+}
+
+.hheader {
+  padding: 0 30px;
+}
+
+.waxom {
+  margin-right: 100px;
+}
+
+.about {
+  color: wheat;
+}
+
+.fab {
+  padding-right: 40px;
+  font-size: 30px;
+}
+
+main {
+  color: white;
+  text-align: center;
+}
+
+.center {
+  justify-content: center;
+  display: block;
+  text-align: center;
+  margin-top: 15%;
+}
+
+.center h1 {
+  font-size: 40px;
+  margin: 10px 0;
+}
+
+.fa-arrow-right {
+  margin-left: auto;
+  font-size: 50px;
+}
+
+.fa-arrow-left {
+  font-size: 50px;
+}
+
+.arrow {
+  padding: 0 40px;
+  display: flex;
+}
+
+.back {
+  width: 700px;
+  text-align: center;
+  margin-left: 30%;
+}
+
+.search {
+  font-size: 20px;
+  margin-left: 70px;
+}
+
+.fa-shopping-bag {
+  margin-right: 40px;
+}
+
+.page2 {
+  text-align: center;
+  justify-content: space-between;
+  display: flex;
+  margin-top: 25%;
+  background-color: white;
+  width: 100%;
+  height: 30%;
+  padding: 5%;
+}
+
+.block {
+  display: block;
+  width: 300px;
+  height: 200px;
+}
+
+.fas {
+  padding-bottom: 30px;
+  padding-top: 10px;
+  font-size: 35px;
+}
+
+p {
+  font-size: 20px;
+}
+
+.block::after {
+  content: "";
+  display: block;
+  height: 3px;
+  width: 40%;
+  margin: 0 auto;
+  background: lightslategray;
+}
+
+.main-text-block-line {
+  margin-bottom: 25px;
+}
+.page3 {
+  display: block;
+  text-align: center;
+  padding: 0 15%;
+  padding-top: 5%;
+  width: 100%;
+  height: 40%;
+  background-color: rgb(241, 241, 241);
+}
+.lasttext {
+  font-size: 20px;
+  color: gray;
+}
+.waxom {
+  display: block;
+}
+.pictures {
+  display: block;
+  width: 110%;
+  padding-top: 69%;
+  height: 20%;
+  background-image: url(2.jpg);
+  margin-top: 3%;
+}
+.waxomcolor {
+  color: white;
+}
+.footer3 {
+  display: flex;
+  padding: 2% 15%;
+  background-color: #4c3126;
+}
+button {
+  margin-left: 30%;
+  padding: 1%;
+  color: white;
+  font-size: 150%;
+  border-top: #736356;
+  border-radius: 5px;
+  background-color: #998675;
+  display: block;
+}
+button:hover {
+  -webkit-transform: scale(1.1);
+  -ms-transform: scale(1.1);
+  transform: scale(1.1);
+}
+.textfooter {
+  display: block;
+}
+.page4 {
+  padding: 1%;
+  margin: 1%;
+  width: 100%;
+  height: 30%;
+  text-align: center;
+  display: block;
+  background-color: white;
+}
+.our {
+  padding-bottom: 10px;
+}
+.text4 {
+  display: block;
+}
+.podour {
+  color: gray;
+}
+.buttons {
+  margin-left: 25%;
+  width: 20%;
+  display: flex;
+}
+.button2 {
+  margin-bottom: 5%;
+  padding: 1%;
+  font-size: 13px;
+  height: 40px;
+  width: 100px;
+  background-color: white;
+  color: gray;
+  border-radius: 5px;
+  display: block;
+}
+.all {
+  margin-bottom: 5%;
+  padding: 1%;
+  font-size: 13px;
+  height: 40px;
+  width: 100px;
+  background-color: #998675;
+  color: white;
+}
+.block66 {
+  padding: 5%;
+  color: wheat;
+}
+.block11-3 {
+  text-align: center;
+  display: flex;
+}
+.block44-6 {
+  text-align: center;
+  margin-top: 25%;
+  display: flex;
+}
+.block1 {
+  margin-right: 1%;
+  display: block;
+  padding-top: 10px;
+  width: 30%;
+  background-color: #736356;
+  display: block;
+}
+.block2 {
+  margin-right: 1%;
+  padding-top: 10px;
+  width: 30%;
+  background-color: #736356;
+  display: block;
+}
+.block3 {
+  padding-top: 10px;
+  width: 30%;
+  background-color: #736356;
+  display: block;
+}
+.block4 {
+  margin-right: 1%;
+  padding-top: 10px;
+  width: 30%;
+  background-color: #736356;
+  display: block;
+}
+.block5 {
+  margin-right: 1%;
+  padding-top: 10px;
+  width: 30%;
+  background-color: #736356;
+  display: block;
+}
+.block6 {
+  padding-top: 10px;
+  width: 30%;
+  background-color: #736356;
+  display: block;
+}
